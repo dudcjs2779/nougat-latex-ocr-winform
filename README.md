@@ -1,13 +1,15 @@
 # nougat-latex-ocr-winform
-The original of this project is https://github.com/NormXU/nougat-latex-ocr.
-<br>
-This project is to build a GUI using C# WINFORM and get the execution result of the model from a Python file.
-<br>
-<br>
-<br>
+This project based on https://github.com/NormXU/nougat-latex-ocr<br>
+Model: https://huggingface.co/Norm/nougat-latex-base
+<br><br><br>
+This program was created to easily convert images to Latex.<br>
+This project is to build a GUI using C# WINFORM and get the execution result of the model from a Python file.<br>
+I created this project to practice running a python file in C# to get the output of a model.
+<br><br>
 nougat-latex-ocr is model that convert image to Latex.
 <br>
 To make this process more convenient, I created this project.
+I made this project to practice for 
 
 ## Uses
 1. Move to path
