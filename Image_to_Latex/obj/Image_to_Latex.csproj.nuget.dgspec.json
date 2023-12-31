@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj": {}
+    "c:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj": {
+    "c:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj",
+        "projectUniqueName": "c:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj",
         "projectName": "Image_to_Latex",
-        "projectPath": "C:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj",
+        "projectPath": "c:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\Image_to_Latex.csproj",
         "packagesPath": "C:\\Users\\dudcj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\obj\\",
+        "outputPath": "c:\\Users\\dudcj\\OneDrive\\Desktop\\CodingTest\\C#\\nougat-latex-ocr-winform\\Image_to_Latex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dudcj\\AppData\\Roaming\\NuGet\\NuGet.Config",
