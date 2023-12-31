@@ -1,8 +1,6 @@
-from flask import Flask, jsonify, request, render_template, send_file
+from flask import Flask, jsonify, request
 import image_to_ratex
 import os
-import time
-from io import BytesIO
 
 app = Flask(__name__)
 
@@ -20,18 +18,15 @@ def hell_user(username):
 @app.route('/Generate', methods=['POST'])
 def Generate():
     try:
-        # 이미지 데이터 추출
+        # get file from request
         image_file = request.files['image']
 
-        # 이미지 파일을 바이트로 읽어오기
+        # convert image to byte data
         image_data = image_file.read()
 
-        # 여기서 이미지 데이터를 원하는 방식으로 처리할 수 있습니다.
-        # 예를 들어, 이미지를 파일로 저장하거나 다른 이미지 처리 작업을 수행할 수 있습니다.
-        
+        # Generate Latex from image
         result = image_to_ratex.run_nougat_latex(model, tokenizer, latex_processor, image_data)
 
-        # 처리가 완료된 결과
         return jsonify(result)
 
     except Exception as e:

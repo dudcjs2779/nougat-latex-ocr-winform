@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 # create: @time: 10/8/23 11:47
 import sys
-import argparse
 
 import torch
 from PIL import Image
